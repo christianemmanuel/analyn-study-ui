@@ -39,6 +39,11 @@ p {
 .header {
   background: red;;
 }
+
+.fa {
+  color: white;
+}
+
 .section {
   position: relative;
   padding: 100px 0;
@@ -125,3 +130,133 @@ p {
 .main-header .header-info .btn {
   margin-top: 50px;
 }
+
+.section-gray {
+  position: relative;
+  background-color: #f3f5f8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-template-container {
+  position: relative;
+}
+
+.section .portfolio-template-container h5 {
+  letter-spacing: 3px;
+  font-size: 17px;
+}
+
+.section .portfolio-template-container p {
+  color: #8c9398;
+  padding: 50px 312px;
+  line-height: 1.90em;
+}
+
+.section div p span {
+  color: #000;
+}
+
+.section-white {
+  position: relative;
+  text-align: center;
+}
+
+.our-services-container {
+  position: relative;
+}
+
+.section .our-services-container h5 {
+  letter-spacing: 3px;
+  font-size: 17px;
+  padding-bottom: 30px
+
+}
+
+.section .our-services-container .our-services-list {
+  position: absolute;
+  display: flex;
+  padding: 30px 120px;
+}
+
+.section .our-services-container .our-services-item {
+  
+  display: block;
+  margin: 24px;
+
+}
+
+.section .our-services-container .our-services-item h5 {
+  /*position: absolute;*/
+  letter-spacing: 3px;
+  font-size: 17px;
+  padding-top: 70px;
+  padding-bottom: 30px
+
+}
+
+.section .our-services-container .our-services-item .icon-service {
+  /*position: absolute;*/
+  border-radius: 50%;
+  background: #3DC9B3;
+  padding: 20px;
+  width: 125px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+
+.section .our-services-container .our-services-item p {
+  padding-top: 30px;
+  color: #8c9398;
+  line-height: 1.90em;
+}
+
+.section .framework {
+  position: absolute;
+  /*max-width: 50%;*/
+  padding-top: 400px;
+  
+}
+
+.section .framework .left {
+  position: absolute;
+  
+  padding: 1em; 
+  background-color: gray; 
+  
+}
+
+.section .framework .right {
+  position: absolute;
+ 
+  padding: 1em; 
+  background: white;
+  
+}
+
+.section .framework .left .image-phone {
+  position: relative;
+  height: 600px;
+  display: flex;
+}
+
+.section .framework .right h5 {
+  letter-spacing: 1px;
+  font-size: 17px;
+  padding-top: 70px;
+
+}
+
+
+
+
+
+
+
+
